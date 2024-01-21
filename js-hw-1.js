@@ -146,6 +146,12 @@ function deleteBukva(text) {
 let text = "Гелікоптер";
 let fakt = deleteBukva(text);
 console.log(fakt);
+//вариант 2
+// let text = "Гелікоптер";
+// let regularExpression = /[уеіаоєяиюї]/gi;
+// let fakt = text.replace(regularExpression, '');
+// console.log(fakt);
+
 
 // 14.*  Використовуючи оператор if реалізувати логіку переводу метрів в кілометри,
 //     так щоб в консоль виводився результат обчислень з правильним закінченням.
